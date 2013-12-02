@@ -1,7 +1,7 @@
 *
 {
 font-family:sans-serif;	
-font-size: 14px;
+font-size: 20px;
 color: #444444;
 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -21,7 +21,7 @@ body {
 }
 
 h3 {
-	font-size: 16px;
+	font-size: 24px;
 }
 
 ul {
@@ -32,8 +32,8 @@ ul {
 
 li {
 	clear: both;
-	padding-top: 4px;
-	padding-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 4px;
 	padding-left: 4px;
 	padding-right: 0px;
 	margin-left: 0px;
@@ -44,16 +44,16 @@ li {
 li .list-icon {
 	float: left;
 	margin-right: 12px;
-	height: 75px; /* TODO: use 100x100 pics instead of scaling */ 
+	height: 100px; /* TODO: use 100x100 pics instead of scaling */ 
  }
 
 
 .icon-list li {
-	height: 80px;
+	height: 108px;
 }
 
 .icon-list .line1 {
-	padding-top: 14px;
+	padding-top: 20px;
 }
 
 li a { 
@@ -64,20 +64,20 @@ li a {
 
 
 li .line1 {
-	font-size: 16px;
+	font-size: 22px;
 	margin-top:0px;
 	margin-bottom:0px;
-	padding-top:10px;
+	padding-top:12px;
 	padding-bottom:0px;
-	padding-left: 10px;
+	padding-left: 12px;
 	font-weight: bold;
 }
 
 li .line2 {
 	margin-top:4px;
 	margin-bottom:0px;
-	padding-left: 10px;
-	padding-bottom: 10px;
+	padding-left: 12px;
+	padding-bottom: 12px;
 	color: #666666;
 }
 
@@ -103,7 +103,7 @@ li .bubble {
 li .action-icon {
 	position: absolute;
 	right: 12px;
-	margin-top: -50px;
+	margin-top: -60px;
 }
 
 .header {
@@ -113,24 +113,30 @@ li .action-icon {
 	background: -webkit-gradient(linear, left top, left bottom, from(#666666), to(#666666), color-stop(.6,#333));
 	color: #FFFFFF;
 	top: 0px; 
-	height: 40px;
+	height: 60px;
 	width: 100%;
 	border-bottom: solid 1px #444444;
 }
 
 .header > h1 {
-	font-size: 16px;
+	font-size: 24px;
 	font-weight: bold;
-	color: #FFFFFF;
+/* 	padding-top:18px;
+ */	color: #FFFFFF;
 }
 
 .header > .nav {
 	position: absolute;
 	left: 12px;
 	height:100%;
-	padding-top: 12px;
+	padding-top: 18px;
 	padding-right: 12px;
 	border-right: solid 1px #333333;
+}
+
+.header > .action {
+	position: absolute;
+	right: 10px;
 }
 
 .header a { 
@@ -140,14 +146,14 @@ li .action-icon {
 
 #header2 {
 	position: absolute;
-	padding-top: 10px;
+	padding-top: 18px;
 	padding-left: 8px;
 	background: #ECEFF2; /* for non-css3 browsers */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFBFB), color-stop(100%,#ECEFF2));
 	color: #000000;
 	font-weight: bold;
-	top: 41px; 
-	height: 30px;
+	top: 61px; 
+	height: 40px;
 	left: 0px;
 	right: 0px;
 	border-bottom: solid 1px #C8CBCE;
@@ -155,14 +161,14 @@ li .action-icon {
 }
 
 #header2 > h2 {
-	font-size: 14px;
+	font-size: 20px;
 	padding:0px;
 	margin:0px;
 }
 
 #wrapper {
 	position: absolute; 
-	top: 82px; 
+	top: 120px; 
 	bottom: 0px;
 	width: 100%;
 	overflow: auto;
@@ -191,13 +197,11 @@ li .action-icon {
 }
 
 #employeeDetails {
-	padding: 8px;
-	padding-bottom: 0px;
-}
+	padding: 12px;
+/* 	margin-bottom: 12px;
+ */}
 
 #employeeDetails img {
 	float: left;
-	margin-right: 8px;
-    height: 100px;
-    vertical-align: top;
+	margin-right: 12px;
 }
